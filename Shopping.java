@@ -19,3 +19,10 @@ class Shopping
 	System.out.println("Total_price :"  + total_price); 
 	}
 }
+System.out.println("store : " + store);
+	System.out.println("item : " + item);
+	System.out.println("Mrp : "+mrp);
+	System.out.println("discount : "+ discount);
+	System.out.println("with_discount_price :"+with_discount_price);
+	double total_price=with_discount_price+shipping_charges+cancellation_fee+gst;
+	System.out.println("Total_price :"  + total_price); 
